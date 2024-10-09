@@ -1,0 +1,38 @@
+{
+  "name": "slidev-theme-martinelli",
+  "version": "0.3.6",
+  "description": "Martinelli theme for Slidev",
+  "author": "Simon Martinelli <simon@martinelli.ch>",
+  "license": "MIT",
+  "homepage": "https://martinelli.ch",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martinelli.ch/slidev-theme-martinelli"
+  },
+  "bugs": "https://github.com/martinelli.ch/slidev-theme-martinelli/issues",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "slidev": ">=v0.47.0"
+  },
+  "slidev": {
+    "defaults": {
+      "fonts": {
+        "mono": "Fira Code",
+        "sans": "Poppins",
+        "local": "Poppins"
+      }
+    }
+  },
+  "dependencies": {
+    "@slidev/types": "^0.47.5",
+    "@slidev/cli": "^0.47.5",
+    "@slidev/theme-default": "^0.25.0",
+    "light-icons": "^1.0.12",
+    "codemirror-theme-vars": "^0.1.2",
+    "prism-theme-vars": "^0.2.4"
+  }
+}
